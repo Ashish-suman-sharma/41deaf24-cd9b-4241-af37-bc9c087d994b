@@ -29,7 +29,7 @@ export default function TopNav() {
       {/* Top announcement bar */}
       <Box p={1} bgcolor="primary.main">
         <Typography fontSize={14} textAlign="center" color="#fff">
-          Your health and safety is our top priority. We maintain the highest standards of hygiene and cleanliness at all our facilities.
+          The health and well-being of our patients and their health care team will always be our priority, so we follow the best practices for cleanliness.
         </Typography>
       </Box>
 
@@ -56,12 +56,12 @@ export default function TopNav() {
             pb={{ xs: 4, md: 1 }}
             px={{ xs: 4, md: 0 }}
           >
-            <Link>Find Physicians</Link>
-            <Link to="/search">Medical Centers</Link>
-            <Link>Pharmacy</Link>
-            <Link>Procedures</Link>
-            <Link>Provider Portal</Link>
-            <Link>Services</Link>
+            <Link>Find Doctors</Link>
+            <Link to="/search">Hospitals</Link>
+            <Link>Medicines</Link>
+            <Link>Surgeries</Link>
+            <Link>Software Provider</Link>
+            <Link>Facilites</Link>
             <Link to="/my-bookings">
               <Button variant="contained" disableElevation>
                 My Appointments
