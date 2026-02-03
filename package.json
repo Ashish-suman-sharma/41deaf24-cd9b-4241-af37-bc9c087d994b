@@ -5,24 +5,25 @@
   "description": "Healthcare appointment booking and medical center discovery platform",
   "author": "Healthcare Portal Team",
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/icons-material": "^5.15.15",
-    "@mui/material": "^5.15.15",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/material": "^6.3.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.0",
     "assert": "^2.1.0",
-    "axios": "^1.6.8",
+    "axios": "^1.7.0",
     "bootstrap": "^5.3.3",
     "browserify-zlib": "^0.2.0",
-    "date-fns": "^3.6.0",
+    "date-fns": "^4.1.0",
     "https-browserify": "^1.0.0",
-    "react": "^18.2.0",
+    "react": "^19.0.0",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.0.0",
     "react-ga4": "^2.1.0",
-    "react-router-dom": "^6.22.3",
+    "react-router-dom": "^7.1.0",
     "react-scripts": "5.0.1",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
@@ -30,13 +31,17 @@
     "url": "^0.11.3",
     "use-debounce": "^10.0.0",
     "util": "^0.12.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "overrides": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "eslintConfig": {
     "extends": ["react-app", "react-app/jest"]
