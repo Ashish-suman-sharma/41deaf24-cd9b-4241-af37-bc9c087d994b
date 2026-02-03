@@ -137,8 +137,8 @@ export default function MedicalCenterCard({
                 onClick={toggleCalendarView}
               >
                 {!calendarExpanded
-                  ? "Schedule FREE Visit"
-                  : "Close Scheduling Panel"}
+                  ? "Book FREE Center Visit"
+                  : "Hide Booking Calendar"}
               </Button>
             </>
           )}

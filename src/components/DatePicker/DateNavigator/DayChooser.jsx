@@ -60,7 +60,7 @@ export default function DayChooser({ selectedDate, setSelectedDate, totalSlots }
                                 {getDateLabel(dateItem)}
                             </Typography>
                             <Typography fontSize={{ xs: 8, md: 12 }} color='primary.green'>
-                                {`${totalSlots} Slots Open`}
+                                {`${totalSlots} Slots Available`}
                             </Typography>
 
                             {/* Active indicator bar */}

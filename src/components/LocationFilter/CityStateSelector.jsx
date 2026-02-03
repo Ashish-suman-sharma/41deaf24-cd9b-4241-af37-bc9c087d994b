@@ -87,9 +87,10 @@ export default function CityStateSelector() {
         }
         required
         sx={{ minWidth: 200, width: "100%" }}
+        MenuProps={{ id: "state-menu" }}
       >
         <MenuItem disabled value="">
-          Select State
+          State
         </MenuItem>
         {stateOptions.map((stateItem) => (
           <MenuItem key={stateItem} value={stateItem}>
@@ -112,9 +113,10 @@ export default function CityStateSelector() {
         }
         required
         sx={{ minWidth: 200, width: "100%" }}
+        MenuProps={{ id: "city-menu" }}
       >
         <MenuItem disabled value="">
-          Select City
+          City
         </MenuItem>
         {cityOptions.map((cityItem) => (
           <MenuItem key={cityItem} value={cityItem}>
@@ -125,6 +127,7 @@ export default function CityStateSelector() {
 
       {/* Search submit button */}
       <Button
+        id="searchBtn"
         type="submit"
         variant="contained"
         size="large"
@@ -132,7 +135,7 @@ export default function CityStateSelector() {
         sx={{ py: "15px", px: 8, flexShrink: 0 }}
         disableElevation
       >
-        Find Centers
+        Search
       </Button>
     </Box>
   );

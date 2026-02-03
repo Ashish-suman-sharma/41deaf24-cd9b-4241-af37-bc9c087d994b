@@ -109,7 +109,7 @@ export default function SearchResults() {
                 mb={2}
                 fontWeight={500}
               >
-                {`${medicalCenters.length} healthcare facilities available in `}
+                {`${medicalCenters.length} medical centers available in `}
                 <span style={{ textTransform: "capitalize" }}>
                   {selectedCity.toLocaleLowerCase()}
                 </span>

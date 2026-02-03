@@ -52,7 +52,7 @@ export default function UserBookings() {
                 fontWeight={700}
                 color="#fff"
               >
-                My Appointments
+                My Bookings
               </Typography>
               <Box
                 bgcolor="#fff"
