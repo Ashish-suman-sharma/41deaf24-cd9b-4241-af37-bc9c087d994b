@@ -15,7 +15,7 @@ export default function QuickServices() {
     () => [
       { img: physicianIcon, title: "Physicians" },
       { img: pharmacyIcon, title: "Diagnostics" },
-      { img: facilityIcon, title: "Medical Centers", active: true },
+      { img: facilityIcon, title: "Medical Centers" },
       { img: medicineIcon, title: "Pharmacy" },
       { img: emergencyIcon, title: "Emergency" },
     ],
